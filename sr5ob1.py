@@ -13,7 +13,6 @@ else:
             sp[i] = float(sp[i])
     print(sp)
     maxElem = 0
-    nommax = 0
     for i in range(n):
         if sp[i] > maxElem:
             maxElem = sp[i]
